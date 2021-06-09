@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Input
+{
+	public static void main(String[] args)
+	{
+		String Name,State,Hobby;
+		int Age;
+		Scanner info = new Scanner(System.in);
+		System.out.println("PLEASE PROVIDE THE FOLLOWING INFORMATION");
+		System.out.println("Enter Your Name:");
+		Name=info.nextLine();
+		System.out.println("Enter Your State:");
+		State=info.nextLine();
+		System.out.println("Enter Your Age:");
+		Age=info.nextInt();
+		System.out.println("What is your Hobby:");
+		Hobby=info.next();
+		System.out.println("Your Name is\n" + Name + "\nyour Age is\n" + Age + "\nyou lived in\n" + State +"\nyour Hobby is\n" + Hobby);
+		System.out.println("THANK YOU");
+	}
+}
